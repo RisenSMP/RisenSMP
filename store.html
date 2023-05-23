@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Store</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./css/store-buttons.css">
+  <link rel="stylesheet" type="text/css" href="./css/footer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script src="./pages/components/header.js" type="text/javascript" defer></script>
+  <script src="./pages/components/footer.js" type="text/javascript" defer></script>
+  <script src="./pages/components/nav-menu.js" type="text/javascript" defer></script>
+</head>
+<style>
+.content {
+  background-color: #666;
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto; /* Use auto for horizontal centering */
+  width: 45%; /* Adjust the value as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1; /* Add this property */
+  top: -338px; /* Adjust the value as needed */
+}
+
+  
+  .content h1 {
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 0; /* Added to move the heading closer to the top */
+  }
+  
+  .content p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 0; /* Added to move the paragraph closer to the top */
+  }
+  
+  .content b {
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: #666;
+    text-decoration: none;
+  }
+
+  .button a {
+    color: black;
+  }
+
+</style>
+
+<body>
+  <nav-menu></nav-menu>
+  <header-component></header-component>
+  <div class="main">
+    <div class="content">
+      <h1>Store</h1>
+      <p>
+        <b>
+          Here you can buy in-game items like Ranks and crate keys.<br>
+          If you need any help or any issues come up, please join this Discord server
+          <button class="button">
+            <a href="https://discord.gg/yxRayFnSBF" target="_blank">Join</a>
+          </button><br>
+          or if there are any other problems that staff can't fix, contact me RiseB0lt#0001
+        </b>
+      </p>
+    </div>
+  </div>  
+  <div class="store-buttons">
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5574038">Vip</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5574052">MVP</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5574084">Pro</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5574090">Elite</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5692430">Risen Rank</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5587170">Rare Key</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5587175">Rare Key</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5587177">Ultra Key</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io/package/5587190">Legendary</a>
+    <a class="store-button" href="https://risesmp-webstore.tebex.io">Store home</a>
+  </div>
+  <footer-component></footer-component>
+</body>
+</html>
