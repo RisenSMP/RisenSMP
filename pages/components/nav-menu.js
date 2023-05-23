@@ -91,9 +91,9 @@ class Navigation extends HTMLElement {
               <div class="dropdown-menu">
                 <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Item 1.1</a></li>
-                  <li><a href="#">Item 1.2</a></li>
-                  <li><a href="#">Item 1.3</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
                 </ul>
               </div>
             </li>
@@ -101,9 +101,9 @@ class Navigation extends HTMLElement {
               <a href="#" class="dropdown-toggle">Information</a>
               <div class="dropdown-menu">
                 <ul>
-                  <li><a href="#">Item 2.1</a></li>
-                  <li><a href="#">Item 2.2</a></li>
-                  <li><a href="#">Item 2.3</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
                 </ul>
               </div>
             </li>
@@ -111,9 +111,9 @@ class Navigation extends HTMLElement {
               <a href="#" class="dropdown-toggle">Contact Us</a>
               <div class="dropdown-menu">
                 <ul>
-                  <li><a href="#">Item 3.1</a></li>
-                  <li><a href="#">Item 3.2</a></li>
-                  <li><a href="#">Item 3.3</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
                 </ul>
               </div>
             </li>
@@ -122,8 +122,8 @@ class Navigation extends HTMLElement {
               <div class="dropdown-menu">
                 <ul>
                   <li><a href="store.html">Store</a></li>
-                  <li><a href="#">Item 4.2</a></li>
-                  <li><a href="#">Item 4.3</a></li>
+                  <li><a href="#">Item not ready</a></li>
+                  <li><a href="#">Item not ready</a></li>
                 </ul>
               </div>
             </li>
