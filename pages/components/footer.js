@@ -15,8 +15,6 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <footer class="footer">
         <div class="container">
-        <div class="logo">
-        </div>
           <div class="row">
             <div class="footer-col">
               <div class="about">
@@ -42,6 +40,7 @@ class Footer extends HTMLElement {
                 <li><a href="ikke-klar.html">Contact</a></li>
                 <li><a href="https://discord.gg/9VE5k3a5gR" target="_blank">Ticket in Discord</a></li>
                 <li><a href="#">Contact Owner-RiseB0lt#0001</a></li>
+                <li><a href="#">Contact Email Us If you Need Anything-Not made</a></li>
               </ul>
             </div>
             <div class="footer-col">
@@ -60,5 +59,5 @@ class Footer extends HTMLElement {
     `;
   }
 }
-
+//RyzenSMPContact@gmail.com is the email in line 43//
 customElements.define('footer-component', Footer);
