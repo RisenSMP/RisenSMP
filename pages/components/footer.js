@@ -16,7 +16,6 @@ class Footer extends HTMLElement {
       <footer class="footer">
         <div class="container">
         <div class="logo">
-        <img src="./public/images/server-icon_1.png" alt="Logo">
         </div>
           <div class="row">
             <div class="footer-col">
