@@ -51,7 +51,7 @@ class Footer extends HTMLElement {
                 <a href="https://discord.gg/9VE5k3a5gR" target="_blank"><i class="fab fa-discord"></i></a>
                 <a href="https://www.youtube.com/@RiseX2" target="_blank"><i class="fab fa-youtube"></i></a>
                 <a href="https://www.tiktok.com/@riseb0lt" target="_blank"><i class="fab fa-tiktok"></i></a>
-                <a href="https://twitter.com/RisenSMP1" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/RyzenSMP1" target="_blank"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
           </div>  
