@@ -15,6 +15,9 @@ class Footer extends HTMLElement {
     this.innerHTML = `
       <footer class="footer">
         <div class="container">
+        <div class="logo">
+        <img src="./public/images/server_pfp.jpg" alt="Logo">
+        </div>
           <div class="row">
             <div class="footer-col">
               <div class="about">

@@ -45,14 +45,15 @@ class Navigation extends HTMLElement {
         .dropdown-menu {
           display: none;
           position: absolute;
-          top: 114%;
+          top: 100%; /* or a smaller value like 90% */
           left: 50%;
           transform: translateX(-50%);
           background-color: #24262b;
           width: 100%;
           margin-top: -10px;
           padding-top: 10px;
-        }
+          z-index: 9999; /* Adjust the value as needed */
+        }        
         
         
         .dropdown-menu ul {
@@ -121,7 +122,7 @@ class Navigation extends HTMLElement {
               <a href="#" class="dropdown-toggle">Store</a>
               <div class="dropdown-menu">
                 <ul>
-                  <li><a href="store.html">Store</a></li>
+                  <li><a href="ikke-klar.html">Store</a></li>
                   <li><a href="#">Item not ready</a></li>
                   <li><a href="#">Item not ready</a></li>
                 </ul>
